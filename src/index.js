@@ -3,15 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import NotificationList from "./chp06/NotificationList";
-import './chp06/Notification.css'
+import Accomodate from "./chp07/Accomodate";
+
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <NotificationList/>
+    <Accomodate/>
   </React.StrictMode>
 );
 
