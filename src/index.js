@@ -3,7 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Accomodate from "./chp07/Accomodate";
+import Accomodate from "./chp08/Toggle";
+import Toggle2 from "./chp08/Toggle2";
+import ClickButton from "./chp08/ClickButton";
+import Counter from "./chp08/Counter";
+import InputTest from "./chp08/InputTest";
+import ConfirmButton3 from "./chp08/ConfirmButton3";
 
 
 
@@ -11,7 +16,7 @@ import Accomodate from "./chp07/Accomodate";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Accomodate/>
+    <ConfirmButton3/>
   </React.StrictMode>
 );
 
