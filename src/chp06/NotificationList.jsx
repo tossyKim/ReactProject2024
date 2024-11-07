@@ -24,7 +24,7 @@ class NotificationList extends React.Component{
         super(props);
 
         this.state = {
-            notifications: [],
+            notifications : [],
         }
     }
 
@@ -37,7 +37,7 @@ class NotificationList extends React.Component{
                 const index = notifications.length;
                 notifications.push(reservedNotifications[index]);
                 this.setState({
-                    notifications: notifications,
+                    notifications : notifications,
                 })
             }
             else{

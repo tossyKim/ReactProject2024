@@ -11,12 +11,16 @@ function Accomodate(props){
         console.log("======================");
         console.log("useEffect 실행됨");
         console.log(`isFull : ${isFull}`);
-    }, []);
+    },[]);
 
     useEffect(() => {
         setIsFull(count >= MAX_CAPACITY)
         console.log(`current count value : ${count}`);
-    }, [count]);
+    });
+
+    useEffect(() => {
+        document.title = `${count}`;
+    });
 
     return(
         <div style={{padding: 16}}>

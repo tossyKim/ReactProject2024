@@ -1,4 +1,4 @@
-import {React, useState} from "react"
+import React, {useState} from "react"
 
 // 상태 변경을 포함한 이벤트 처리
 function Counter(){

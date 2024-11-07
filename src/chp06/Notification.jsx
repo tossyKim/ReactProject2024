@@ -1,19 +1,19 @@
 import React from "react";
 
-// const styles = {
-//     wrapper: {
-//         margin: 8,
-//         padding: 8,
-//         display: "flex",
-//         flexDirection: "row",
-//         border: "1px solid grey",
-//         borderRadius: 16,
-//     },
-//     messageText: {
-//         color: "magenta",
-//         font: 16,
-//     },
-// };
+const styles = {
+    wrapper: {
+        margin: 8,
+        padding: 8,
+        display: "flex",
+        flexDirection: "row",
+        border: "1px solid grey",
+        borderRadius: 16,
+    },
+    messageText: {
+        color: "magenta",
+        font: 16,
+    },
+};
 
 class Notification extends React.Component{
 
@@ -39,8 +39,8 @@ class Notification extends React.Component{
 
     render() {
         return(
-            <div className="wrapper"/*style={styles.wrapper}*/>
-                <span className="messageText"/*style={styles.messageText}*/>
+            <div className="wrapper" style={styles.wrapper}>
+                <span className="messageText" style={styles.messageText}>
                     {this.props.message}
                 </span>
             </div>
