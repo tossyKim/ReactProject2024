@@ -7,7 +7,7 @@ function Greeting(props){
 
     if(isLoggedIn){
         return <UserGreeting/>
-    }
+    }else
         return <GuestGreeting/>
 }
 
