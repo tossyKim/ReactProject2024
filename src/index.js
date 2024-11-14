@@ -5,6 +5,8 @@ import reportWebVitals from './reportWebVitals';
 import LandingPage from "./chp09/LandingPage";
 import AppNumberList from "./chp10/AppNumberList";
 import StudentAttendance from "./chp10/StudentAttendance";
+import AppStudentAttendance from "./chp10/AppStudentAttendance";
+import AttendanceCard from "./chp10/avarterAttendance/AttendanceCard";
 
 
 
@@ -13,7 +15,7 @@ import StudentAttendance from "./chp10/StudentAttendance";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <StudentAttendance/>
+    <AttendanceCard/>
   </React.StrictMode>
 );
 
