@@ -5,6 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import MainPage from "./chp13/MainPage";
 import Header from "./chp13/components/Header";
 import AirApp from "./chp13/AirApp";
+import Mainpage from "./reactprojecttest/Mainpage";
 
 
 
@@ -12,7 +13,7 @@ import AirApp from "./chp13/AirApp";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <AirApp/>
+    <Mainpage/>
   </React.StrictMode>
 );
 
